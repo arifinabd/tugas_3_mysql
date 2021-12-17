@@ -1,0 +1,35 @@
+Tugas 3
+
+
+Apa kepanjangan dari XAMPP?
+Bagaimana cara untuk mengakses XAMPP Panel?
+Module apa yang harus diaktifkan untuk menjalankan MYSQL Server?
+Bagaimana cara menjalankan PHPMyAdmin di browser?
+Bagaimana menjalankan MYSQL Client?
+
+
+
+1. 	1. X (Cross Platform)
+	Maksudnya adalah, Xampp dalam dijalankan di berbagai perangkat sistem operasi yang ada, misalnya Windows, Linux, Mac OS, dan Solaris. Dari ke semua sistem operasi tersebut, software ini bersifat open source atau dapat digunakan secara gratis.
+
+	2. A (Apache)
+	Apache merupakan aplikasi web server yang bertugas untuk menciptakan halaman website yang benar berdasarkan kode program PHP yang ditulis oleh pengembang web (developer). Memungkinkan juga untuk mengakses sistem database terlebih dahulu untuk mendukung halaman situs yang dihasilkan.
+
+	3. M (MySQL / MariaDB)
+	MySQL merupakan salah satu aplikasi database server yang menerapkan bahasa pemrograman SQL (Structured Query Language). Fungsi dari MySQL sendiri adalah untuk mengelola dan membuat sistem basis data secara terstruktur dan sistematis. 
+
+	4. P (PHP)
+	PHP adalah bahasa pemrograman khusus berbasis web untuk kebutuhan pada sisi server (back end). Sehingga, PHP sangat memungkinkan untuk membuat suatu halaman website menjadi lebih dinamis dengan menerapkan server-side scripting. PHP juga mendukung manajemen sistem pada Oracle, Postgresql, Microsoft Access, dan lain sebagainya.
+	
+	5. P (Perl)
+	Perl merupakan bahasa pemrograman untuk segala kebutuhan (cross platform) yang berfungsi sebagai penunjuk eksistensi dari PHP. Perl biasanya banyak digunakan untuk website development pada sistem berbasis CMS (Content Management System) seperti WordPress.
+
+2. START->All Programs->XAMPP->XAMPP Control Panel.
+
+3. klik tombol START pada modul Apache dan MySQL. Jika tidak ada masalah, akan tampil warna hijau pada kolom module
+
+4. setelah START pada modul Apache dan MySQL, silahkan buka web browser dan ketik alamat http://localhost di address bar, kemudian tekan enter  Jika yang tampil adalah jendela pembuka XAMPP, maka semuanya telah terinstall dengan baik. Untuk menguji apakah database MySQL (atau tepatnya MariaDB) sudah terkoneksi dan bisa di- Instalasi XAMPP, MySQL dan MariaDB akses, klik menu phpMyAdmin di sudut kanan atas, atau ketik alamat http://localhost/phpmyadmin.
+
+5. Sebelum mulai, pastikan MySQL server sudah berjalan, boleh dari XAMPP Control Panel atau secara manual dari cmd. Kemudian, buka kembali cmd dan ketik perintah berikut:
+   c:\xampp\mysql\bin\mysql -u root
+	Jika penulisannya benar, akan tampil teks “welcome” dari MariaDB
